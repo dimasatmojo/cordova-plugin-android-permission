@@ -27,6 +27,9 @@
     <config-file target="AndroidManifest.xml" parent="/*">
         <uses-permission android:name="android.permission.BLUETOOTH" />
         <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+        <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+        <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+        <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     </config-file> 
 
     <source-file src="src/android/com/android/plugins/Permissions.java" target-dir="src/com/android/plugins"/>
